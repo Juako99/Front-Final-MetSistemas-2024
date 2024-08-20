@@ -254,7 +254,7 @@ const ModalEmpresa: React.FC<ModalEmpresaProps> = ({
           my: 2,
           bgcolor: "#FFA500",
           "&:hover": {
-            bgcolor: "#00023D",
+            bgcolor: "#FF3700",
           },
         }}
       >

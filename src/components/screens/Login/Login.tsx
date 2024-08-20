@@ -18,7 +18,7 @@ const LoginPage = () => {
     >
       <Box
         sx={{
-          backgroundColor: "rgba(255, 255, 255, 0.9)",
+          backgroundColor: "rgba(255, 255, 255, 0.7)",
           padding: "32px",
           textAlign: "center",
           borderRadius: "8px",
@@ -34,9 +34,9 @@ const LoginPage = () => {
           variant="contained"
           color="primary"
           sx={{
-            bgcolor: "#FE5A1D",
+            bgcolor: "#FFA500",
             "&:hover": {
-              bgcolor: "#FFA500",
+              bgcolor: "#FF3700",
             },
           }}
           onClick={() => loginWithRedirect({
